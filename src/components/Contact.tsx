@@ -9,19 +9,19 @@ export default function Contact() {
           <div className="mb-6 space-y-2">
             <div className="flex items-center gap-2">
               <span className="font-semibold">Email:</span>
-              <a href="mailto:anmolbhardwaj.official@gmail.com" className="link link-primary">anmolbhardwaj.official@gmail.com</a>
+              <a href="mailto:anmolbhardwaj.official@gmail.com" className="link link-primary">anmolbhardwajinv@gmail.com</a>
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-semibold">Phone:</span>
-              <a href="tel:+918890689890" className="link link-primary">+91-8890689890</a>
+              {/* <span className="font-semibold">Phone:</span> */}
+              {/* <a href="tel:+918890689890" className="link link-primary">+91-8890689890</a> */}
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold">Github:</span>
-              <a href="https://github.com/anmolbhardwaj" className="link link-primary" target="_blank" rel="noopener noreferrer">anmolbhardwaj</a>
+              <a href="https://github.com/itsannmoll" className="link link-primary" target="_blank" rel="noopener noreferrer">itsanmoll</a>
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold">LinkedIn:</span>
-              <a href="https://linkedin.com/in/anmolbhardwaj" className="link link-primary" target="_blank" rel="noopener noreferrer">anmolbhardwaj</a>
+              <a href="https://linkedin.com/in/itsanmoll" className="link link-primary" target="_blank" rel="noopener noreferrer">itsanmoll</a>
             </div>
           </div>
           <form className="space-y-4 mt-6">
