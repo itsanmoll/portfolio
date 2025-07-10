@@ -30,13 +30,18 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar bg-base-100/80 backdrop-blur-lg shadow-xl rounded-xl mt-6 mb-10 mx-auto max-w-3xl px-6 sticky top-4 z-50 border border-base-200">
-      <div className="navbar-start">
-        <a className="btn btn-ghost normal-case text-2xl font-extrabold flex items-center gap-2" href="#hero">
+    <div className="bg-base-100/80 backdrop-blur-lg shadow-xl rounded-xl mt-6 mb-10 mx-auto max-w-3xl px-6 sticky top-4 z-50 border border-base-200">
+      <nav className="flex items-center justify-between w-full h-16">
+        
+        {/* Logo */}
+        <a
+          className="flex items-center gap-2 font-extrabold text-2xl"
+          href="#hero"
+        >
           <div className="avatar">
             <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
               <Image
-                src="https://randomuser.me/api/portraits/men/32.jpg"
+                src="/images/pfp.png"
                 alt="Anmol Bhardwaj"
                 width={40}
                 height={40}
@@ -47,19 +52,22 @@ export default function Navbar() {
           </div>
           Anmol
         </a>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-2">
+  
+        {/* Nav Links */}
+        <ul className="flex gap-4">
           {navLinks.map((link) => (
             <li key={link.name}>
-              <a href={link.href} className="font-medium text-base rounded-lg hover:bg-primary hover:text-primary-content transition px-3 py-1">
+              <a
+                href={link.href}
+                className="font-medium text-base rounded-lg hover:bg-primary hover:text-primary-content transition px-3 py-1"
+              >
                 {link.name}
               </a>
             </li>
           ))}
         </ul>
-      </div>
-      <div className="navbar-end">
+  
+        {/* Theme Toggle */}
         <button
           className="btn btn-ghost btn-circle"
           aria-label="Toggle theme"
@@ -71,7 +79,7 @@ export default function Navbar() {
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M21.752 15.002A9.718 9.718 0 0 1 12 22C6.477 22 2 17.523 2 12c0-4.418 2.865-8.186 6.839-9.504a1 1 0 0 1 1.181 1.497A7 7 0 1 0 20.507 15.68a1 1 0 0 1 1.245 1.322z" /></svg>
           )}
         </button>
-      </div>
+      </nav>
     </div>
   );
 }

@@ -8,7 +8,7 @@ const roles = [
     date: 'AUG 2024 — OCT 2024',
     location: 'London, United Kingdom (Remote)',
     tech: ['Python', 'AutoGPT', 'NLP', 'Haystack'],
-    logo: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=facearea&w=64&q=80',
+    logo: '/images/unify.png',
     bullets: [
       'Integrated UnifyAI Python library with AutoGPT to enhance automated task execution workflows.',
       'Optimized NLP workflows by embedding the UnifyAI library into Haystack’s pipeline architecture.'
@@ -20,7 +20,7 @@ const roles = [
     date: 'June 2024 — July 2024',
     location: 'Alwar, Rajasthan',
     tech: ['Neural Networks', 'NLP', 'Python'],
-    logo: 'https://images.unsplash.com/photo-1502767089025-6572583495b4?auto=format&fit=facearea&w=64&q=80',
+    logo: '/images/skillocean.jpeg',
     bullets: [
       'Designed neural network models to advance text processing efficiency.',
       'Conducted workshops teaching NLP techniques to improve team skills.',

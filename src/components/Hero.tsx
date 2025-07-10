@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="card w-full max-w-2xl bg-base-100/80 backdrop-blur-lg shadow-2xl border border-base-200 mx-auto flex flex-col md:flex-row items-center gap-10 p-12 rounded-2xl">
         <figure></figure>
           <Image
-            src="https://randomuser.me/api/portraits/men/32.jpg"
+            src="/images/pfp.png"
             alt="Anmol Bhardwaj"
             width={144}
             height={144}
