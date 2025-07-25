@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Anmol Bhardwaj",
   initials: "DV",
-  url: "https://dillion.io",
+  url: "https://anmolbhardwaj.vercel.app",
   location: "India",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/alwar",
   description:
     "Engineer",
   summary:
-    "",
+    "AI and full-stack developer with hands-on experience in LLMs, NLP, and scalable system design. Contributed to production-level AI pipelines at UnifyAI and built real-world projects in deep learning, generative AI, and satellite image processing.",
   avatarUrl: "/pfp.jpg",
   skills: [
     "React",
@@ -70,10 +70,10 @@ export const DATA = {
       // },
       email: {
         name: "Send Email",
-        url: "anmolbhardwajinv@gmail.com",
+        url: "mailto:anmolbhardwajinv@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
