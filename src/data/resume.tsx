@@ -188,8 +188,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Sat Track",
-      href: "https://chatcollect.com",
+      title: "Orion-Ai",
+      href: "https://orion-ai-gamma.vercel.app/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -205,15 +205,15 @@ export const DATA = {
         "Daisy UI",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://orion-ai-gamma.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "orion-ai.mov",
     },
     {
       title: "Magic UI",
