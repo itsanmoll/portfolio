@@ -316,7 +316,7 @@ export const DATA = {
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+        "https://cse.noticebard.com/wp-content/uploads/sites/23/2024/08/Smart-India-Hackathon-2024.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -327,7 +327,7 @@ export const DATA = {
       description:
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgj2I7ihxcfJcr3q8V_aYuW1J3m76RRarloQ&s",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -339,7 +339,7 @@ export const DATA = {
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+        "https://cse.noticebard.com/wp-content/uploads/sites/23/2024/08/Smart-India-Hackathon-2024.jpg",
       links: [],
     },
     {
@@ -349,7 +349,7 @@ export const DATA = {
       description:
         "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgj2I7ihxcfJcr3q8V_aYuW1J3m76RRarloQ&s",
       links: [
         {
           title: "Github",
